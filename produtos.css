@@ -1,5 +1,18 @@
 header{
     background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto; /*centralizou a caixa horizontalmente*/
+}
+
+nav{
+    position: absolute;
+    top: 110px; /*A imagem ao lado possui 240px de altura*/
+    right: 0;
 }
 
 nav li{
