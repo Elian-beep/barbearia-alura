@@ -1,0 +1,23 @@
+header{
+    background: #BBBBBB;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+
+/* 
+Items possuem config inline ou block
+    O inline ocupa toda a largura da linha, mas é possivel editar isso (ex: <ul>)
+    O block ocupa apenas o tamanho do item na linha, sendo possivel outro item ocupar aquela linha
+*/
