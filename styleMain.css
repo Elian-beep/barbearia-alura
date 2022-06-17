@@ -1,6 +1,13 @@
-.banner {
+.sessao-banner{
     width: 100%;
-    margin: 10px auto;
+    margin: 3em 0;
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    width: 80%;
+    margin: 0 auto;
     border: 3px solid #000000;
     border-radius: 10px;
 }
@@ -12,6 +19,21 @@
     margin: 0 0 1em;
     clear: left;
     /*Limpando o float a esquerda*/
+}
+
+.titulo-principal::first-letter{
+    font-weight: bold;
+}
+
+/* p::first-line{
+    font-style: italic;
+} */
+
+.principal{
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .principal p {
@@ -33,17 +55,51 @@
     margin: 0 20px 20px 0;
 }
 
-.imagemBeneficios {
-    width: 60%;
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
 }
 
 .mapa{
     padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
 }
 
 .mapa p{
     margin: 0 0 2em;
     text-align: center;
+}
+
+.beneficios{
+    padding: 3em 0;
+    background: #888888;
+}
+
+.conteudo-beneficios{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top; /*Seu inicio de alinhamneto deve começar do topo*/
+}
+
+.itens{
+    line-height: 1.5em;
+}
+
+.itens::before{
+    content: "🌟";
+}
+
+.itens:nth-child(2n){ /*Pega todos os elementos pares da lista*/
+    font-weight: bold;
+}
+
+.imagem-beneficios {
+    width: 60%;
 }
 
 .video{
