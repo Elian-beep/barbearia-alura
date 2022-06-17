@@ -1,4 +1,4 @@
-.titulo-principal{
+/* .titulo-principal{
     padding-left: 20px;
 }
 
@@ -45,4 +45,40 @@ ul{
 
 .imagemBeneficios{
     width: 50%;
+} */
+
+.banner{
+    width: 100%;
+    margin: 10px auto;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em; /*O dobro da fonte base*/
+    margin: 0 0 1em;
+    clear: left; /*Limpando o float a esquerda*/
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.utensilios{
+    width: 120px;
+    float: left; /*Flutua a esquerda*/
+    margin: 0 20px 20px 0;
+}
+
+.imagemBeneficios{
+    width: 60%;
 }
